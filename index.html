@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Darshan Inn Restaurant | Pure Vegetarian Dining in Dindoli, Surat</title>
+
+  <!-- SEO & Social Meta Tags -->
+  <meta name="description"
+    content="Darshan Inn Restaurant in Dindoli, Surat. Wholesome pure vegetarian Punjabi, Chinese & snacks with A/C Family Hall and celebration banquet. Dine-in and drive-through available.">
+  <meta name="keywords"
+    content="Darshan Inn Restaurant, Surat Restaurant, Dindoli Restaurant, Pure Veg Surat, Punjabi Restaurant Surat, Mark Point Dindoli">
+  <meta name="author" content="Darshan Inn Restaurant">
+  <meta property="og:title" content="Darshan Inn Restaurant - Surat">
+  <meta property="og:description"
+    content="Authentic pure vegetarian dining at Darshan Inn Restaurant, Mark Point, Dindoli, Surat. Dine-in & drive-through available.">
+  <meta property="og:image" content="/images/darshan-facade.jpg">
+  <meta property="og:url" content="https://darshaninnrestaurant.com">
+  <meta property="og:type" content="restaurant">
+  <link rel="canonical" href="https://darshaninnrestaurant.com">
+  <link rel="icon" type="image/svg+xml" href="/images/darshan-mark.svg">
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- JSON-LD Structured Data for Local Restaurant -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Darshan Inn Restaurant",
+    "image": [
+      "https://darshaninnrestaurant.com/images/darshan-facade.jpg",
+      "https://darshaninnrestaurant.com/images/darshan-grand-hall-perfect.jpg",
+      "https://darshaninnrestaurant.com/images/darshan-table-spread-perfect.jpg"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "C-Building, 1st, Mark Point, Kharvasa-Dindoli Road, Sai Shiv Shakti Society, Dindoli",
+      "addressLocality": "Surat",
+      "addressRegion": "Gujarat",
+      "postalCode": "394210",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "21.1465",
+      "longitude": "72.8687"
+    },
+    "url": "https://darshaninnrestaurant.com",
+    "telephone": "+918153010366",
+    "priceRange": "₹200–₹1,200",
+    "servesCuisine": ["North Indian", "Punjabi", "Chinese", "Snacks", "Vegetarian"],
+    "hasMenu": "https://wa.me/918153010366",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.0",
+      "reviewCount": "571"
+    }
+  }
+  </script>
+
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+  <!-- Scroll Progress Indicator -->
+  <div id="scroll-progress-bar" aria-hidden="true"></div>
+
+  <!-- Announcement Bar / Operating Hours Status -->
+  <aside class="announcement-bar" id="announcement-bar" aria-label="Operating status announcement">
+    <div class="container announcement-content">
+      <div class="status-indicator">
+        <span class="status-dot pulsating"></span>
+        <span id="live-status-text">Official Schedule Note: <strong>Closes 3 pm · Reopens 6 pm</strong></span>
+      </div>
+      <div class="announcement-actions">
+        <span class="badge-veg"><span class="veg-dot"></span> Pure Vegetarian</span>
+        <button id="open-hours-modal-btn" class="text-btn hours-btn" aria-label="View or edit schedule">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <circle cx="12" cy="12" r="10" />
+            <polyline points="12 6 12 12 16 14" />
+          </svg>
+          Hours Note
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Sticky Header Navigation -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-container">
+      <!-- Text Brand Name (No logo or logo graphics) -->
+      <a href="#" class="brand-name-link" aria-label="Darshan Inn Restaurant Homepage">
+        <span class="brand-text">Darshan Inn Restaurant</span>
+        <span class="brand-subtext">SURAT · DINDOLI</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="desktop-nav" aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#pricing" class="nav-link">Price Range</a></li>
+          <li><a href="#menu" class="nav-link">Menu Preview</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#hours" class="nav-link">Hours</a></li>
+          <li><a href="#contact" class="nav-link">Visit Us</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header CTAs -->
+      <div class="header-cta-group">
+        <a href="tel:+918153010366" class="btn btn-glass btn-icon-phone"
+          aria-label="Call Darshan Inn Restaurant at 081530 10366">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path
+              d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+          </svg>
+          <span class="btn-text">081530 10366</span>
+        </a>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=5V2F%2B48%20Surat%2C%20Gujarat&travelmode=driving"
+          target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="header-directions-btn"
+          aria-label="Get directions to Darshan Inn Restaurant on Google Maps">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="3 11 22 2 13 21 11 13 3 11" />
+          </svg>
+          <span>Get Directions</span>
+        </a>
+
+        <!-- Mobile Hamburger Button -->
+        <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle navigation menu"
+          aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Navigation -->
+    <div class="mobile-nav-drawer" id="mobile-nav-drawer" aria-hidden="true">
+      <div class="drawer-header">
+        <div class="drawer-brand">
+          <span class="drawer-brand-title">Darshan Inn Restaurant</span>
+          <span class="drawer-brand-sub">Pure Vegetarian · Dindoli, Surat</span>
+        </div>
+        <button class="drawer-close" id="drawer-close" aria-label="Close navigation menu">&times;</button>
+      </div>
+      <ul class="mobile-nav-links">
+        <li><a href="#about" class="mobile-nav-link">About Darshan Inn</a></li>
+        <li><a href="#services" class="mobile-nav-link">Dining Services</a></li>
+        <li><a href="#pricing" class="mobile-nav-link">Price Range</a></li>
+        <li><a href="#menu" class="mobile-nav-link">Menu Preview</a></li>
+        <li><a href="#gallery" class="mobile-nav-link">Photo Gallery</a></li>
+        <li><a href="#hours" class="mobile-nav-link">Operating Hours</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Visit Us &amp; Contact</a></li>
+      </ul>
+      <div class="drawer-footer">
+        <a href="tel:+918153010366" class="btn btn-glass btn-block">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <path
+              d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+          </svg>
+          Call 081530 10366
+        </a>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=5V2F%2B48%20Surat%2C%20Gujarat&travelmode=driving"
+          target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <polygon points="3 11 22 2 13 21 11 13 3 11" />
+          </svg>
+          Get Directions (Google Maps)
+        </a>
+        <a href="https://wa.me/918153010366" target="_blank" rel="noopener noreferrer"
+          class="btn btn-whatsapp btn-block">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.698c.966.528 1.884.819 2.796.819 3.181 0 5.767-2.587 5.767-5.767.001-3.18-2.585-5.766-5.767-5.766zm9.969 5.767c0 5.523-4.477 10-10 10-1.748 0-3.385-.45-4.818-1.238l-7.182 1.881 1.916-6.995c-.881-1.493-1.396-3.23-1.396-5.088 0-5.523 4.477-10 10-10s10 4.477 10 10z" />
+          </svg>
+          Chat on WhatsApp
+        </a>
+      </div>
+    </div>
+    <!-- Mobile Drawer Backdrop Overlay -->
+    <div class="mobile-drawer-backdrop" id="mobile-drawer-backdrop" aria-hidden="true"></div>
+  </header>
+
+  <main id="main-content">
+    <!-- ==================== HERO SECTION (CLEAN & BRIGHT) ==================== -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <!-- Hero Text & Primary Actions -->
+        <div class="hero-content">
+          <div class="hero-pill-tag">
+            <span class="veg-badge-square" title="Pure Vegetarian Food">
+              <span class="veg-badge-circle"></span>
+            </span>
+            <span class="pill-text">Pure Vegetarian Dining &amp; Banquets · Surat</span>
+          </div>
+
+          <h1 class="hero-title">
+            Darshan Inn <br>
+            <span class="text-gradient-gold">Restaurant</span>
+          </h1>
+
+          <p class="hero-description">
+            Warm Indian hospitality and wholesome pure vegetarian cuisine in Dindoli, Surat. Enjoy freshly baked
+            tandoori breads, rich gravies, Chinese snacks, and celebrations in our air-conditioned family hall.
+          </p>
+
+          <!-- Primary Hero Actions (Large tap targets for mobile & desktop) -->
+          <div class="hero-btn-row">
+            <a href="#menu" class="btn btn-primary btn-lg" id="hero-menu-cta">
+              <span>Explore Menu</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </a>
+            <a href="https://www.google.com/maps/dir/?api=1&destination=5V2F%2B48%20Surat%2C%20Gujarat&travelmode=driving"
+              target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-lg" id="hero-directions-cta">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <polygon points="3 11 22 2 13 21 11 13 3 11" />
+              </svg>
+              <span>Get Directions</span>
+            </a>
+          </div>
+
+          <!-- Quick Badges Strip -->
+          <div class="hero-meta-strip">
+            <div class="meta-pill">
+              <span class="meta-icon">★</span>
+              <span><strong>4.0</strong> (571+ Google Reviews)</span>
+            </div>
+            <div class="meta-pill">
+              <span class="meta-icon">₹</span>
+              <span><strong>₹200–₹1,200</strong> per person</span>
+            </div>
+            <div class="meta-pill">
+              <span class="meta-icon clock-icon">⏱</span>
+              <span>“Closes 3 pm · Reopens 6 pm”</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Photo Stage (Crisp, High Quality & Responsive) -->
+        <div class="hero-visual-stage">
+          <div class="hero-card-frame">
+            <div class="image-wrapper">
+              <img src="/images/darshan-facade.jpg"
+                alt="Darshan Inn Restaurant exterior entrance and signboard at Mark Point, Dindoli, Surat"
+                class="hero-food-img" id="hero-main-photo" loading="eager" width="1181" height="460">
+              <div class="image-gradient-overlay"></div>
+            </div>
+
+            <!-- Floating Card Badges -->
+            <div class="floating-badge badge-dish">
+              <span class="dish-badge-title">Darshan Restaurant</span>
+              <span class="dish-badge-sub">Mark Point, 1st Floor Entrance</span>
+            </div>
+
+            <div class="floating-badge badge-services-pill">
+              <span class="badge-dot-green"></span>
+              <span>Dine-in &amp; Drive-thru Available</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section class="about-section section-padding" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <!-- Left: Grand Dining Hall Photo & Facade Snapshot -->
+          <div class="about-visual-col">
+            <div class="about-img-frame">
+              <img src="/images/darshan-grand-hall-perfect.jpg"
+                alt="Darshan Inn Restaurant spacious grand A/C family dining hall with chandeliers and booth seating"
+                class="about-main-img" loading="lazy" width="665" height="289">
+              <div class="about-img-tag">
+                <span>Grand A/C Family Dining Hall</span>
+              </div>
+            </div>
+
+            <!-- Facade Snapshot -->
+            <div class="about-facade-card">
+              <img src="/images/darshan-facade.jpg"
+                alt="Darshan Inn Restaurant exterior signage at Mark Point C-Building Dindoli Surat"
+                class="facade-thumb" loading="lazy" width="140" height="90">
+              <div class="facade-text">
+                <span class="facade-title">Mark Point, 1st Floor</span>
+                <span class="facade-address">Kharvasa-Dindoli Rd, Sai Shiv Shakti Society, Surat</span>
+                <span class="facade-tag">Punjabi · Chinese · Snacks</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Authentic Narrative -->
+          <div class="about-text-col">
+            <span class="section-eyebrow">ABOUT DARSHAN INN</span>
+            <h2 class="section-title">
+              Pure Vegetarian Dining for <br>
+              <span class="text-gradient-gold">Families &amp; Celebrations</span>
+            </h2>
+
+            <div class="about-paragraphs">
+              <p>
+                <strong>Darshan Inn Restaurant</strong> is a dedicated pure vegetarian dining destination located on the
+                1st floor of Mark Point along Kharvasa-Dindoli Road in Dindoli, Surat.
+              </p>
+              <p>
+                Our premises include a spacious, air-conditioned family hall and banquet facility, thoughtfully designed
+                for peaceful everyday family meals, weekend dinners, anniversaries, and community gatherings.
+              </p>
+              <p>
+                We focus on fresh preparation, generous portions, and authentic tastes across Punjabi specialties,
+                tandoori breads, Indo-Chinese favorites, and evening snacks.
+              </p>
+            </div>
+
+            <!-- Key Highlights List -->
+            <ul class="about-checklist">
+              <li><span class="check-icon">✓</span> 100% Pure Vegetarian Kitchen</li>
+              <li><span class="check-icon">✓</span> Spacious A/C Family Hall &amp; Banquet Facilities</li>
+              <li><span class="check-icon">✓</span> Fresh Tandoori Breads &amp; North Indian Curries</li>
+              <li><span class="check-icon">✓</span> Punjabi, Chinese &amp; Evening Snacks</li>
+              <li><span class="check-icon">✓</span> Convenient Drive-through &amp; Curbside Pickup</li>
+            </ul>
+
+            <div class="about-cta-row">
+              <a href="https://www.google.com/maps/dir/?api=1&destination=5V2F%2B48%20Surat%2C%20Gujarat&travelmode=driving"
+                target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <polygon points="3 11 22 2 13 21 11 13 3 11" />
+                </svg>
+                <span>Get Directions</span>
+              </a>
+              <a href="tel:+918153010366" class="btn btn-glass">
+                <span>Call 081530 10366</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SERVICES SECTION ==================== -->
+    <section class="services-section section-padding" id="services">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-eyebrow">SERVICES AT A GLANCE</span>
+          <h2 class="section-title">
+            Service <span class="text-gradient-gold">Availability</span>
+          </h2>
+          <p class="section-subtitle">
+            Clear dining options for our Surat restaurant:
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- 1. Dine-In -->
+          <div class="service-card">
+            <div class="service-status-pill available">
+              <span class="status-bullet">✓</span>
+              <span>Available</span>
+            </div>
+            <div class="service-icon-wrap">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" />
+                <path d="M7 2v20" />
+                <path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
+              </svg>
+            </div>
+            <h3 class="service-card-title">Dine-in</h3>
+            <p class="service-card-desc">
+              Relax in our air-conditioned family dining hall with comfortable booth seating, fresh table arrangements,
+              and full table service.
+            </p>
+            <span class="service-badge-note">A/C Family Hall &amp; Banquet</span>
+          </div>
+
+          <!-- 2. Drive-Through -->
+          <div class="service-card">
+            <div class="service-status-pill available">
+              <span class="status-bullet">✓</span>
+              <span>Available</span>
+            </div>
+            <div class="service-icon-wrap">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="1" y="3" width="15" height="13" />
+                <polygon points="16 8 20 8 23 11 23 16 16 16 16 8" />
+                <circle cx="5.5" cy="18.5" r="2.5" />
+                <circle cx="18.5" cy="18.5" r="2.5" />
+              </svg>
+            </div>
+            <h3 class="service-card-title">Drive-through</h3>
+            <p class="service-card-desc">
+              Quick curbside and drive-through food collection. Call ahead to place your order and pick up hot, fresh
+              packages without delay.
+            </p>
+            <span class="service-badge-note">Fast Curbside Takeaway</span>
+          </div>
+
+          <!-- 3. Delivery (NOT Available) -->
+          <div class="service-card service-not-available">
+            <div class="service-status-pill unavailable">
+              <span class="status-bullet">✗</span>
+              <span>Not Available</span>
+            </div>
+            <div class="service-icon-wrap icon-unavail">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M10 17h4V5H2v12h3" />
+                <polygon points="14 5 18 5 21 9 21 17 14 17 14 5" />
+                <circle cx="6.5" cy="17.5" r="2.5" />
+                <circle cx="17.5" cy="17.5" r="2.5" />
+                <line x1="2" y1="2" x2="22" y2="22" />
+              </svg>
+            </div>
+            <h3 class="service-card-title">Delivery</h3>
+            <p class="service-card-desc">
+              <strong>Doorstep delivery is not available.</strong> We invite you to visit us in person or pick up your
+              meal directly via our drive-through.
+            </p>
+            <span class="service-badge-note unavail-note">In-House Dining &amp; Pickup Only</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PRICE RANGE SECTION ==================== -->
+    <section class="pricing-section section-padding" id="pricing">
+      <div class="container">
+        <div class="pricing-card">
+          <div class="pricing-content">
+            <span class="section-eyebrow">PRICE RANGE HIGHLIGHT</span>
+            <h2 class="pricing-headline">
+              <span class="currency-tag">₹</span>200 – <span class="currency-tag">₹</span>1,200
+              <span class="pricing-per-head">per person</span>
+            </h2>
+            <p class="pricing-description">
+              As reported on Google Maps, dining at Darshan Inn accommodates a versatile range—from quick evening snacks
+              and starters to full multi-course family meals and celebration banquets.
+            </p>
+
+            <div class="pricing-tiers-grid">
+              <div class="price-tier-card">
+                <span class="tier-accent blue"></span>
+                <div class="tier-text">
+                  <span class="tier-title">Snacks &amp; Starters</span>
+                  <span class="tier-range">₹200 – ₹350 / person</span>
+                  <p class="tier-info">Light bites, beverages, crisp appetizers, and accompaniments.</p>
+                </div>
+              </div>
+
+              <div class="price-tier-card">
+                <span class="tier-accent gold"></span>
+                <div class="tier-text">
+                  <span class="tier-title">Punjabi Meals &amp; Thali</span>
+                  <span class="tier-range">₹350 – ₹600 / person</span>
+                  <p class="tier-info">Hearty curries, clay-oven tandoori breads, rice, and fresh salad.</p>
+                </div>
+              </div>
+
+              <div class="price-tier-card">
+                <span class="tier-accent rose"></span>
+                <div class="tier-text">
+                  <span class="tier-title">Banquets &amp; Feasts</span>
+                  <span class="tier-range">₹600 – ₹1,200 / person</span>
+                  <p class="tier-info">Multi-dish family banquets, Chinese dishes, specialties, and celebration dining.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== MENU PREVIEW SECTION ==================== -->
+    <section class="menu-section section-padding" id="menu">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag-row justify-center">
+            <span class="section-eyebrow">AUTHENTIC DELICACIES</span>
+            <span class="veg-badge-square sm"><span class="veg-badge-circle sm"></span></span>
+          </div>
+          <h2 class="section-title">
+            Menu <span class="text-gradient-gold">Preview</span>
+          </h2>
+          <p class="section-subtitle">
+            Authentic pure vegetarian specialties photographed fresh at our restaurant. Detailed daily items are
+            available on WhatsApp or at our counter.
+          </p>
+
+          <!-- WhatsApp Menu Link Action -->
+          <div class="menu-whatsapp-block">
+            <a href="https://wa.me/918153010366?text=Hello%20Darshan%20Inn%20Restaurant,%20please%20share%20your%20current%20menu"
+              target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.698c.966.528 1.884.819 2.796.819 3.181 0 5.767-2.587 5.767-5.767.001-3.18-2.585-5.766-5.767-5.766zm9.969 5.767c0 5.523-4.477 10-10 10-1.748 0-3.385-.45-4.818-1.238l-7.182 1.881 1.916-6.995c-.881-1.493-1.396-3.23-1.396-5.088 0-5.523 4.477-10 10-10s10 4.477 10 10z" />
+              </svg>
+              <span>View Full Menu on WhatsApp</span>
+            </a>
+            <span class="menu-wa-url">Official WhatsApp link: <strong>wa.me/918153010366</strong></span>
+          </div>
+        </div>
+
+        <!-- Menu Cards Grid -->
+        <div class="menu-grid">
+          <!-- Card 1: Tandoori Butter Naan -->
+          <div class="menu-card">
+            <div class="menu-img-wrap">
+              <img src="/images/darshan-butter-naan.jpg"
+                alt="Darshan Inn freshly baked clay-oven Tandoori Butter Naan with crisp golden blisters"
+                class="menu-img" loading="lazy" width="580" height="450">
+              <span class="card-badge">Tandoor Special</span>
+            </div>
+            <div class="menu-body">
+              <div class="menu-header">
+                <span class="veg-badge-square sm"><span class="veg-badge-circle sm"></span></span>
+                <h3 class="menu-title">Tandoori Butter Naan</h3>
+              </div>
+              <p class="menu-text">
+                Traditional leavened bread baked in the clay tandoor, brushed with pure butter for a soft texture and
+                golden roasted blisters.
+              </p>
+              <div class="menu-footer">
+                <span class="menu-tag">Fresh Clay Oven Bread</span>
+                <span class="menu-range-tag">House Specialty</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Kadai Paneer / Punjabi Paneer Masala -->
+          <div class="menu-card">
+            <div class="menu-img-wrap">
+              <img src="/images/darshan-table-spread-perfect.jpg"
+                alt="Rich Punjabi Kadai Paneer gravy served piping hot with fresh coriander and grated paneer"
+                class="menu-img" loading="lazy" width="862" height="570">
+              <span class="card-badge">House Gravy</span>
+            </div>
+            <div class="menu-body">
+              <div class="menu-header">
+                <span class="veg-badge-square sm"><span class="veg-badge-circle sm"></span></span>
+                <h3 class="menu-title">Shahi Kadai Paneer Gravy</h3>
+              </div>
+              <p class="menu-text">
+                Soft paneer cubes simmered in a spiced tomato-onion masala with whole crushed spices, bell peppers, and
+                fresh coriander garnish.
+              </p>
+              <div class="menu-footer">
+                <span class="menu-tag">North Indian Classic</span>
+                <span class="menu-range-tag">Customer Favorite</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Fresh Onion & Citrus Salad Platter -->
+          <div class="menu-card">
+            <div class="menu-img-wrap">
+              <img src="/images/food-spread-full.jpg"
+                alt="Fresh crisp sliced red onions served with fresh lemon slices and table chutney" class="menu-img"
+                loading="lazy" width="800" height="500">
+              <span class="card-badge">Accompaniment</span>
+            </div>
+            <div class="menu-body">
+              <div class="menu-header">
+                <span class="veg-badge-square sm"><span class="veg-badge-circle sm"></span></span>
+                <h3 class="menu-title">Crisp Onion &amp; Lemon Salad</h3>
+              </div>
+              <p class="menu-text">
+                Freshly sliced red garden onion rings paired with hand-cut lemon wedges and table accompaniments for the
+                perfect curry pairing.
+              </p>
+              <div class="menu-footer">
+                <span class="menu-tag">Garden Fresh</span>
+                <span class="menu-range-tag">Table Accompaniment</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4: Punjabi & Chinese Specialties -->
+          <div class="menu-card">
+            <div class="menu-img-wrap">
+              <img src="/images/darshan-grand-hall-perfect.jpg"
+                alt="Darshan Inn Chinese and Snack selections served hot in the A/C family hall" class="menu-img"
+                loading="lazy" width="665" height="289">
+              <span class="card-badge">Signboard Special</span>
+            </div>
+            <div class="menu-body">
+              <div class="menu-header">
+                <span class="veg-badge-square sm"><span class="veg-badge-circle sm"></span></span>
+                <h3 class="menu-title">Punjabi, Chinese &amp; Snacks</h3>
+              </div>
+              <p class="menu-text">
+                As advertised on our Mark Point building sign, enjoy hot wok-tossed Chinese items, starters, evening
+                snacks, and Punjabi preparations.
+              </p>
+              <div class="menu-footer">
+                <span class="menu-tag">Multi-Cuisine</span>
+                <span class="menu-range-tag">Signboard Feature</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-note-box">
+          <p>
+            * Listed price range is <strong>₹200–₹1,200 per person</strong>. For current items, catering, or banquet
+            inquiries, connect with us on WhatsApp or call <strong>081530 10366</strong>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PHOTO GALLERY ==================== -->
+    <section class="gallery-section section-padding" id="gallery">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-eyebrow">ACTUAL PHOTOGRAPHY</span>
+          <h2 class="section-title">
+            Restaurant <span class="text-gradient-gold">Gallery</span>
+          </h2>
+          <p class="section-subtitle">
+            Authentic photographs of our dining hall, celebration banquet, food spread, and Mark Point premises in
+            Surat.
+          </p>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid" id="gallery-grid">
+          <!-- 1. Table Spread -->
+          <div class="gallery-card">
+            <img src="/images/darshan-table-spread-perfect.jpg"
+              alt="Darshan Inn authentic meal spread with tandoori butter naan and paneer gravy" class="gallery-img"
+              loading="lazy" width="862" height="570">
+            <div class="gallery-info">
+              <span class="gallery-category">Food</span>
+              <span class="gallery-title">Tandoori Butter Naan &amp; Curries</span>
+            </div>
+          </div>
+
+          <!-- 2. Grand Dining Hall -->
+          <div class="gallery-card">
+            <img src="/images/darshan-grand-hall-perfect.jpg"
+              alt="Spacious grand A/C family dining hall with chandeliers and booth seating" class="gallery-img"
+              loading="lazy" width="665" height="289">
+            <div class="gallery-info">
+              <span class="gallery-category">Interior</span>
+              <span class="gallery-title">Grand A/C Family Dining Hall</span>
+            </div>
+          </div>
+
+          <!-- 3. Celebration Banquet Room -->
+          <div class="gallery-card">
+            <img src="/images/darshan-banquet-perfect.jpg"
+              alt="Celebration banquet room decorated for anniversary party" class="gallery-img" loading="lazy"
+              width="1005" height="588">
+            <div class="gallery-info">
+              <span class="gallery-category">Banquet</span>
+              <span class="gallery-title">Celebration &amp; Event Banquet</span>
+            </div>
+          </div>
+
+          <!-- 4. Table Setting & Staff -->
+          <div class="gallery-card">
+            <img src="/images/darshan-dining-staff-perfect.jpg"
+              alt="Neatly set table with cutlery, napkins, and attentive staff member" class="gallery-img"
+              loading="lazy" width="453" height="615">
+            <div class="gallery-info">
+              <span class="gallery-category">Hospitality</span>
+              <span class="gallery-title">Table Service &amp; Dining Staff</span>
+            </div>
+          </div>
+
+          <!-- 5. Exterior Building Signboard -->
+          <div class="gallery-card">
+            <img src="/images/darshan-facade.jpg"
+              alt="Darshan Inn Restaurant exterior at Mark Point C-Building Dindoli Surat" class="gallery-img"
+              loading="lazy" width="1181" height="460">
+            <div class="gallery-info">
+              <span class="gallery-category">Exterior</span>
+              <span class="gallery-title">Mark Point, 1st Floor Entrance</span>
+            </div>
+          </div>
+
+          <!-- 6. Butter Naan Close-up -->
+          <div class="gallery-card">
+            <img src="/images/darshan-butter-naan.jpg" alt="Close up of hot butter naan freshly baked in tandoor"
+              class="gallery-img" loading="lazy" width="580" height="450">
+            <div class="gallery-info">
+              <span class="gallery-category">Food</span>
+              <span class="gallery-title">Fresh Clay Oven Butter Naan</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== OPERATING HOURS (ACCURATE & EDITABLE) ==================== -->
+    <section class="schedule-section section-padding" id="hours">
+      <div class="container">
+        <div class="schedule-card">
+          <div class="schedule-header">
+            <div>
+              <span class="section-eyebrow">RESTAURANT TIMINGS</span>
+              <h2 class="schedule-title">
+                Operating <span class="text-gradient-gold">Hours</span>
+              </h2>
+            </div>
+            <button class="btn btn-secondary btn-sm" id="open-edit-hours-btn">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <path d="M12 20h9" />
+                <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
+              </svg>
+              <span>Edit Hours Note</span>
+            </button>
+          </div>
+
+          <!-- Prominent Official Note (No invented weekly schedule) -->
+          <div class="hours-official-callout">
+            <div class="callout-clock-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+            </div>
+            <div class="callout-text-body">
+              <span class="callout-tag">OFFICIAL LISTING NOTE</span>
+              <p class="callout-quote" id="display-listing-note">“Closes 3 pm · Reopens 6 pm”</p>
+              <p class="callout-explainer">
+                The restaurant observes an afternoon break between the lunch and evening dinner shifts.
+              </p>
+            </div>
+          </div>
+
+          <!-- Two Daily Shifts Overview -->
+          <div class="shifts-grid">
+            <div class="shift-card">
+              <div class="shift-icon">☀️</div>
+              <h3 class="shift-heading">Lunch Shift</h3>
+              <p class="shift-timing" id="display-lunch-time">11:00 AM – 3:00 PM</p>
+              <span class="shift-note">Closing at 3:00 PM for afternoon break</span>
+            </div>
+
+            <div class="shift-card">
+              <div class="shift-icon">🌙</div>
+              <h3 class="shift-heading">Dinner Shift</h3>
+              <p class="shift-timing" id="display-dinner-time">6:00 PM – 11:00 PM</p>
+              <span class="shift-note">Reopening at 6:00 PM for evening dining</span>
+            </div>
+          </div>
+
+          <div class="schedule-live-status-bar">
+            <span class="live-dot pulsating"></span>
+            <span id="hours-live-status">Calculating live status based on Surat time...</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== VISIT US / CONTACT SECTION ==================== -->
+    <section class="contact-section section-padding" id="contact">
+      <div class="container">
+        <div class="contact-grid">
+          <!-- Left: Complete Contact Information Card -->
+          <div class="contact-info-col">
+            <span class="section-eyebrow">LOCATION &amp; CONTACT</span>
+            <h2 class="section-title">
+              Visit Us at <br>
+              <span class="text-gradient-gold">Mark Point, Dindoli</span>
+            </h2>
+            <p class="contact-intro">
+              We look forward to welcoming you. Reach out by phone for takeaway pickups, banquet bookings, or family
+              reservations.
+            </p>
+
+            <div class="contact-cards-stack">
+              <!-- Full Address Card -->
+              <div class="contact-block">
+                <div class="contact-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                </div>
+                <div class="contact-content">
+                  <span class="contact-label">Complete Restaurant Address</span>
+                  <address class="contact-address-text" id="restaurant-address-text">
+                    C-Building, 1st, Mark Point, Kharvasa-Dindoli Road, Sai Shiv Shakti Society, Dindoli, Surat, Gujarat
+                    394210
+                  </address>
+                  <div class="address-btn-row">
+                    <button class="btn-copy-address" id="copy-address-btn" title="Copy address to clipboard">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />
+                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+                      </svg>
+                      <span id="copy-btn-text">Copy Full Address</span>
+                    </button>
+                    <span class="maps-code-tag">Google Maps Code: <strong>5V2F+48 Surat, Gujarat</strong></span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Phone & WhatsApp Card -->
+              <div class="contact-block">
+                <div class="contact-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                    <path
+                      d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                  </svg>
+                </div>
+                <div class="contact-content">
+                  <span class="contact-label">Phone &amp; Orders</span>
+                  <a href="tel:+918153010366" class="contact-phone-link">081530 10366</a>
+                  <p class="contact-subtext">Click to call directly on mobile</p>
+                </div>
+              </div>
+
+              <!-- Official Website Card -->
+              <div class="contact-block">
+                <div class="contact-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                    <circle cx="12" cy="12" r="10" />
+                    <line x1="2" y1="12" x2="22" y2="12" />
+                    <path
+                      d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                  </svg>
+                </div>
+                <div class="contact-content">
+                  <span class="contact-label">Official Website</span>
+                  <a href="https://darshaninnrestaurant.com" target="_blank" rel="noopener noreferrer"
+                    class="contact-web-link">darshaninnrestaurant.com</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Get Directions Action Button (Exact Google Maps Directions URL for phones & desktop) -->
+            <div class="contact-actions-row">
+              <a href="https://www.google.com/maps/dir/?api=1&destination=5V2F%2B48%20Surat%2C%20Gujarat&travelmode=driving"
+                target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg" id="contact-directions-btn"
+                aria-label="Get driving directions to Darshan Inn Restaurant on Google Maps">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <polygon points="3 11 22 2 13 21 11 13 3 11" />
+                </svg>
+                <span>Get Directions (Google Maps)</span>
+              </a>
+
+              <a href="https://wa.me/918153010366" target="_blank" rel="noopener noreferrer"
+                class="btn btn-whatsapp btn-lg" aria-label="Open WhatsApp chat with Darshan Inn Restaurant">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.698c.966.528 1.884.819 2.796.819 3.181 0 5.767-2.587 5.767-5.767.001-3.18-2.585-5.766-5.767-5.766zm9.969 5.767c0 5.523-4.477 10-10 10-1.748 0-3.385-.45-4.818-1.238l-7.182 1.881 1.916-6.995c-.881-1.493-1.396-3.23-1.396-5.088 0-5.523 4.477-10 10-10s10 4.477 10 10z" />
+                </svg>
+                <span>WhatsApp Us</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Google Map Card -->
+          <div class="contact-map-col">
+            <div class="map-card-wrapper">
+              <div class="map-card-header">
+                <div class="map-header-indicator">
+                  <span class="live-pin-dot"></span>
+                  <span class="map-loc-text">Location Code: <strong>5V2F+48 Surat, Gujarat</strong></span>
+                </div>
+                <a href="https://www.google.com/maps/dir/?api=1&destination=5V2F%2B48%20Surat%2C%20Gujarat&travelmode=driving"
+                  target="_blank" rel="noopener noreferrer" class="map-direct-link">
+                  Open in Maps &nearr;
+                </a>
+              </div>
+
+              <!-- Map Embed -->
+              <div class="map-embed-box">
+                <iframe title="Google Maps Location for Darshan Inn Restaurant Surat"
+                  src="https://maps.google.com/maps?q=5V2F%2B48%20Surat%2C%20Gujarat&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                  width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+              </div>
+
+              <div class="map-card-footer">
+                <span class="fallback-note">Full Address: C-Building, 1st, Mark Point, Kharvasa-Dindoli Road, Sai Shiv
+                  Shakti Society, Dindoli, Surat, Gujarat 394210</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-top-row">
+        <!-- Brand Name (No logo graphics) -->
+        <div class="footer-brand-box">
+          <span class="footer-brand-title">Darshan Inn Restaurant</span>
+          <p class="footer-brand-desc">
+            Wholesome pure vegetarian Punjabi, Chinese &amp; snacks dining in Dindoli, Surat. Air-conditioned family
+            hall and celebration banquets.
+          </p>
+          <div class="footer-veg-pill">
+            <span class="veg-badge-square sm"><span class="veg-badge-circle sm"></span></span>
+            <span>100% Pure Vegetarian</span>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-links-box">
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-nav">
+            <li><a href="#about">About Darshan Inn</a></li>
+            <li><a href="#services">Services (Dine-in / Drive-thru)</a></li>
+            <li><a href="#pricing">Price Range (₹200–₹1,200)</a></li>
+            <li><a href="#menu">Menu Preview</a></li>
+            <li><a href="#gallery">Photo Gallery</a></li>
+            <li><a href="#hours">Operating Hours</a></li>
+            <li><a href="#contact">Location &amp; Directions</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact & Location -->
+        <div class="footer-contact-box">
+          <h4 class="footer-col-title">Contact &amp; Location</h4>
+          <address class="footer-address">
+            C-Building, 1st, Mark Point, <br>
+            Kharvasa-Dindoli Road, Sai Shiv Shakti Society, <br>
+            Dindoli, Surat, Gujarat 394210
+          </address>
+          <div class="footer-contact-actions">
+            <a href="tel:+918153010366" class="f-link">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+              </svg>
+              <span>081530 10366</span>
+            </a>
+            <a href="https://www.google.com/maps/dir/?api=1&destination=5V2F%2B48%20Surat%2C%20Gujarat&travelmode=driving"
+              target="_blank" rel="noopener noreferrer" class="f-link highlight">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <polygon points="3 11 22 2 13 21 11 13 3 11" />
+              </svg>
+              <span>Directions: 5V2F+48 Surat, Gujarat</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-row">
+        <p>&copy; <span id="current-year">2026</span> Darshan Inn Restaurant. All rights reserved.</p>
+        <p class="footer-sub-notice">
+          Dine-in and drive-through available; delivery is not available. Listed price range: ₹200–₹1,200 per person.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== MOBILE FLOATING ACTION BAR ==================== -->
+  <!-- Always-accessible quick bottom actions on mobile devices -->
+  <nav class="mobile-sticky-bottom-bar" aria-label="Quick mobile actions">
+    <a href="tel:+918153010366" class="mobile-bar-btn" aria-label="Call Restaurant">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+        <path
+          d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+      </svg>
+      <span>Call</span>
+    </a>
+    <a href="https://www.google.com/maps/dir/?api=1&destination=5V2F%2B48%20Surat%2C%20Gujarat&travelmode=driving"
+      target="_blank" rel="noopener noreferrer" class="mobile-bar-btn highlight-btn" aria-label="Get Directions">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+        <polygon points="3 11 22 2 13 21 11 13 3 11" />
+      </svg>
+      <span>Directions</span>
+    </a>
+    <a href="https://wa.me/918153010366" target="_blank" rel="noopener noreferrer" class="mobile-bar-btn whatsapp-btn"
+      aria-label="WhatsApp">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+        <path
+          d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.698c.966.528 1.884.819 2.796.819 3.181 0 5.767-2.587 5.767-5.767.001-3.18-2.585-5.766-5.767-5.766zm9.969 5.767c0 5.523-4.477 10-10 10-1.748 0-3.385-.45-4.818-1.238l-7.182 1.881 1.916-6.995c-.881-1.493-1.396-3.23-1.396-5.088 0-5.523 4.477-10 10-10s10 4.477 10 10z" />
+      </svg>
+      <span>WhatsApp</span>
+    </a>
+  </nav>
+
+  <!-- ==================== EDIT HOURS MODAL ==================== -->
+  <div class="custom-modal-backdrop" id="hours-modal" aria-hidden="true">
+    <div class="custom-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="hours-modal-title">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <circle cx="12" cy="12" r="10" />
+            <polyline points="12 6 12 12 16 14" />
+          </svg>
+          <h3 id="hours-modal-title">Edit Restaurant Hours Note</h3>
+        </div>
+        <button class="modal-close-btn" id="close-hours-modal-btn" aria-label="Close modal">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="modal-notice">
+          <p>
+            Official Google listing note: <strong>“Closes 3 pm · Reopens 6 pm”</strong>. You can customize the shift
+            timings below if your afternoon break or closing hours change.
+          </p>
+        </div>
+
+        <!-- Inline Form Validation Error Alert -->
+        <div id="modal-error-msg" class="modal-error-alert" style="display: none;" role="alert"></div>
+
+        <form id="hours-form" class="hours-edit-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="input-lunch-start">Lunch Open Time</label>
+              <input type="time" id="input-lunch-start" value="11:00" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="input-lunch-end">Lunch Close (Listing: 3:00 PM)</label>
+              <input type="time" id="input-lunch-end" value="15:00" class="form-control" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="input-dinner-start">Dinner Reopen (Listing: 6:00 PM)</label>
+              <input type="time" id="input-dinner-start" value="18:00" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="input-dinner-end">Dinner Close Time</label>
+              <input type="time" id="input-dinner-end" value="23:00" class="form-control" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="input-listing-note">Official Schedule Note Text</label>
+            <input type="text" id="input-listing-note" value="Closes 3 pm · Reopens 6 pm" class="form-control">
+          </div>
+
+          <div class="form-actions">
+            <button type="button" class="btn btn-glass" id="reset-hours-btn">Reset Defaults</button>
+            <button type="submit" class="btn btn-primary">Save Changes</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container" aria-live="polite"></div>
+
+  <!-- Vite Main JS Module -->
+  <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>
